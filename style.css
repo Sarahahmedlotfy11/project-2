@@ -1,0 +1,116 @@
+* {
+    padding:0px ;
+    margin: 0px;
+}
+#cont {
+    height: 100vh;
+    width: 100vw;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#hd{
+    width: 100hw;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    background-color: gray;
+}
+#hd-1 {
+    /* border: 1px solid #000; */
+    background-color: gray;
+    text-align: center;
+    color: aliceblue;
+    top: 20vh;
+    font-size: 40px;
+}
+#form {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    gap: 3vh;
+    width: 50%;
+}
+#add {
+    height: 5vh;
+    font-size: 18px;
+    background-color: rgb(255, 0, 85);
+    border-radius: 5px;
+    flex: 1;
+}
+#add:hover {
+    background-color: palevioletred;
+}
+#user__inpt {
+    height: 30vh; 
+    border-radius: 5px;
+    margin: 10px;
+}
+#app__cont{
+    width: 100vw;
+    height: 50vh;
+    /* border: 1px solid #000; */
+    /* justify-content: center;
+    align-items: center; */
+
+}
+.button {
+    width: 10px;
+    height: 7vh;
+    /* border-radius: 5px; */
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    flex: 1;
+    margin-left: 20px;
+    justify-self: end;
+    text-align: center;
+}
+.button:hover {
+    background-color: green;
+    color: #fff;
+}
+#item__list {
+    display: flex;
+    border: 1px solid white;
+    height: 7vh;
+    list-style: none;
+    width: 100vw;
+}
+
+#item__list li {
+    border: 1px solid white;
+    flex: 2;
+    color: black;
+    display: flex;
+    padding-left: 30px;
+}
+.delet{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:palevioletred ;
+    width: 2px;
+    height: 7vh;
+    justify-self: end;
+    flex:1;
+    text-align: center;
+}
+.delet:hover{
+    background-color: black;
+    color: #fff;
+}
+.content {
+    flex: 5;
+    padding-left: 150px;
+}
+.error {
+    border: 1px solid red;
+    margin: 5vh;
+    padding: 2vh;
+    width: 90vw;
+    color: darkred;
+    font-size: 32px;
+    text-align: center;
+}
